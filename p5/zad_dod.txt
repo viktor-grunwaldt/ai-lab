@@ -1,0 +1,25 @@
+Dodatkowe zadanie do P5
+Kwadratura kwadratu
+
+Mamy 24 kwadraty o bokach 1, 2, 3, ..., 24. Nale¿cy napisa\u0107 program, który rozmieszcza je na kwadratowej planszy o boku 70, w ten sposób, aby by\u0142y spe\u0142nione nast\u0119puj\u0105ce warunki:
+
+    wspó\u0142rz\u0119dne lewego górnego rogu ka¿cdego kwadratu s\u0105 liczbami ca\u0142kowitymi
+    ka¿cdy kwadrat w ca\u0142o\u015bci mie\u015bci si\u0119 na planszy
+    kwadraty nie nachodz\u0105 na siebie (ale mog\u0105 si\u0119 styka\u0107, rogami lub bokami)
+    boki rozmieszczanych kwadratów s\u0105 równoleg\u0142e do odpowiednich boków planszy
+    mo¿cliwie jak najmniejsza powierzchnia planszy rostaje niepokryta kwadratami
+
+Twój program powinien wypisywa\u0107 proponowane rozwi\u0105zanie w nast\u0119puj\u0105cym formacie:
+
+    w pierwszym wierszu powinna by\u0107 wypisana liczba niezape\u0142nionych kwadracików
+    po niej powinno by\u0107 70 wierszy po 70 znaków przedstawiaj\u0105cych rozmieszczenie kwadratów
+    ka¿cdy znak jest kropk\u0105 (oznaczaj\u0105c\u0105 brak kwadratu) lub liter\u0105 'ABCDEFGHIJKLMNOPQRSTUVWX' ('A' oznacza przynale¿cno\u015b\u0107 do kwadratu o boku 1, 'B' -- o boku 2, itd)
+
+Punktacja za zadanie jest nast\u0119puj\u0105ca (punkty si\u0119 sumuj\u0105):
+
+    2p -- za rozwi\u0105zanie zgodne ze specyfikacj\u0105
+    1p -- za 1000 lub mniej wolnych pól,
+    1p -- za 800 lub mniej wolnych pól, czas dzia\u0142ania programu kilkana\u015bcie sekund
+    2 * 0.5 -- je¿celi Twój program wykorzystuje 1 lub 2 idee/algorytmy z wyk\u0142adu (i potrafisz je wskaza\u0107)
+
+Dodatkowo dostajesz max(0, (200 - W) / 100), gdzie W jest liczb\u0105 wolnych pól. Dla uzyskania tego bonusu mo¿cesz pozwoli\u0107 programowi dzia\u0142a\u0107 d\u0142u¿cej (ale na tyle krótko, by\u015b móg\u0142 go uruchomi\u0107 przy prowadz\u0105cym pracowni\u0119)
